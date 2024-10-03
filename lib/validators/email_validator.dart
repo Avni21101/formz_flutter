@@ -1,6 +1,5 @@
 import 'package:formz/formz.dart';
 
-/// * We are validating the email TextField with [formz](https://pub.dev/packages/formz).
 enum EmailValidationError { invalid, empty }
 
 class EmailValidator extends FormzInput<String, EmailValidationError> {
